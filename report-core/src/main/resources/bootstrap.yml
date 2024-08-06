@@ -20,8 +20,8 @@ spring:
     basename: i18n/messages
   datasource:
     url: jdbc:mysql://111.229.252.74:3306/aj_report?characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false
-    username: root
-    password: Ljl123...
+    username: 
+    password: 
     type: com.zaxxer.hikari.HikariDataSource
     hikari:
       connection-timeout: 300000  # 连接超时时间 - 默认值：30秒。
